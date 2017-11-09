@@ -1,0 +1,6 @@
+.item{
+    border: .5px solid black;
+    display: inline-block;
+    width:175px;
+    text-align: center;
+}

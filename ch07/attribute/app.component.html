@@ -1,0 +1,36 @@
+<form #person="ngForm" (ngSubmit)="onSubmit(person)">
+        <div>
+          <label for="name">name:</label>
+          <input type="text" 
+                 id="name"
+                 ngControl="name" 
+                 required
+                 [(ngModel)]=" person.name" name="name" 
+                 #name="ngModel">
+        </div>
+        <div>
+          <label for="color">favorite color:</label>
+          <select #optionColor id="color" name="color" [(ngModel)]=" person.color" name="color">
+              <option *ngFor="let color of colors" [value]="color">{{color}}</option>
+          </select>
+        </div>
+        <div>
+          <label for="styleClass">Change Class</label><br>
+          <select #classOption multiple id="styleClass" name="styles"
+                  [(ngModel)]=" person.styleClass" name="styleClass">
+              <option *ngFor="let class of classes" [value]="class" >{{class}}</option>
+          </select><br>
+          <span>press and hold control/command<br>to select multiple options</span>
+        </div>
+        <button type="button" (click)="newPerson(person)" [disabled]="!person.valid">New Person</button>
+    </form>
+    <div *ngFor="let per of people">
+      <hr>
+      <p>Name: {{per.name}}</p>
+      <p [ngSwitch]="per.color" [ngClass]="per.styleClass">
+        <span *ngSwitchCase="per.color" [ngStyle]="{'color': per.color}">
+          favorite color: {{per.color}}
+        </span>
+        <span *ngSwitchDefault>color: white</span>
+      </p>
+    </div>

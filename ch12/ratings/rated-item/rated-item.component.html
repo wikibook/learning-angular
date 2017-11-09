@@ -1,0 +1,13 @@
+<p class="title">  
+  {{item.title}}
+</p>
+<img src="{{item.url}}" />
+<p> 
+  Rating: {{item.rating}}
+</p>
+<span *ngFor="let rating of starArray"
+      (click)="setRating(rating)"
+      [ngClass]="getStarClass(rating)">
+  &nbsp;
+</span>
+

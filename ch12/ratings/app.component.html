@@ -1,0 +1,9 @@
+<h1> Rated Images </h1>
+<hr>
+<div class="item"
+     *ngFor="let item of items"> 
+    <rated-item 
+      [item]="item" 
+      [ratingsService]="ratingsService">
+    </rated-item>
+<div>

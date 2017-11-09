@@ -1,0 +1,15 @@
+label{ 
+    color: blue; 
+    font: bold 20px times new roman;
+    width:200px; 
+    display: inline-block; 
+    text-align: right;
+}
+input{ 
+    width:40px; 
+    text-align:right;
+}
+span{ 
+    font: bold 20px courier new; 
+    padding-left: 10px;
+}

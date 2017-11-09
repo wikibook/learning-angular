@@ -1,0 +1,21 @@
+* {
+    margin: 5px;
+}
+img {
+    height: 100px;
+}
+.title{
+  font: bold 20px/24px Verdana;
+}
+span {
+    float: left;
+    width: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.star{
+    background-image: url("../../assets/images/star.png");    
+}
+.empty {
+    background-image: url("../../assets/images/empty.png");
+}

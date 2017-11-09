@@ -1,0 +1,5 @@
+<span>
+  Enter Text to Pass As Params:  
+</span>
+<input type=text [(ngModel)]="text" />
+<button [disabled]="!text" (click)="gotoPage2()">Page 2</button>

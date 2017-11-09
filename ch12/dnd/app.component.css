@@ -1,0 +1,9 @@
+.tagBox {
+  width: 320px;
+  padding: 5px;
+}
+drop-item{
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 5px;
+}

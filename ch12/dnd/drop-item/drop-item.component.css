@@ -1,0 +1,16 @@
+img{
+    width: 100px;
+}
+.taggedImage{
+    display: inline-block;
+    width: 100px;
+    background: #000000;
+}
+.imageTag {
+    display: inline-block;
+    width: 100px;
+    font: 16px/18px Georgia, serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#888888, #000000);
+}

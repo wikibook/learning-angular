@@ -1,0 +1,10 @@
+img { 
+  width: 200px;
+}
+.zoombox {
+  display: inline-block;
+  border: 3px ridge black;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+}

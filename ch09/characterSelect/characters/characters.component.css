@@ -1,0 +1,15 @@
+div{
+    display: block;
+}
+.cInfo{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+h2{
+  text-align: center;
+}
+button{
+  cursor: pointer;
+}

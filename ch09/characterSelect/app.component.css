@@ -1,0 +1,13 @@
+.char{
+    padding: 5px;
+    border: 2px solid forestgreen;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.char:hover{
+  background-color: lightgrey;
+}
+body{
+  text-align: center;
+}

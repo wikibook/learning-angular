@@ -1,0 +1,19 @@
+div {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  font: bold 16px/30px Times New Roman;
+  color: #226bd8;
+  border: 1px solid lightblue;
+  background: linear-gradient(white, lightblue, skyblue);
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  vertical-align: top;
+}
+img {
+  width: 150px;
+  vertical-align: top;
+}

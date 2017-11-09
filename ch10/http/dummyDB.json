@@ -1,0 +1,27 @@
+[
+  {
+    "userId": 1,
+    "userName": "brendan",
+    "userEmail": "fake@email.com"
+  },
+  {
+    "userId": 2,
+    "userName": "brad",
+    "userEmail": "email@notreal.com"
+  },
+  {
+    "userId": 3,
+    "userName": "caleb",
+    "userEmail": "dummy@email.com"
+  },
+  {
+    "userId": 4,
+    "userName": "john",
+    "userEmail": "ridiculous@email.com"
+  },
+  {
+    "userId": 5,
+    "userName": "doe",
+    "userEmail": "some@email.com"
+  }
+]

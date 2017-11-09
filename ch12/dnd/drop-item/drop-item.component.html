@@ -1,0 +1,9 @@
+<div class="taggedImage"
+     (dragover)="allowDrop($event)" 
+     (drop)="onDrop($event)">
+  <img src="{{imgsrc}}" />
+  <span class="imageTag" 
+        *ngFor="let tag of tags">
+    {{tag}}
+  </span>
+</div>

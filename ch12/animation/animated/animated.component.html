@@ -1,0 +1,8 @@
+<div [@bounceState]='state'>
+  <p  
+     (mouseenter)="enter()"
+     (mouseleave)="leave()">
+    {{title}}
+  </p>
+  <img src="{{src}}" [@fadeState]='state' />
+</div>

@@ -1,0 +1,26 @@
+<h1>Tagging Images</h1>
+<hr>
+<div class="tagBox">
+    <span *ngFor="let tagText of tagList">
+        <drag-item [tag]="tagText"></drag-item>
+    </span>
+</div>
+<hr>
+
+<drop-item 
+[imgsrc]="'../../assets/images/mountain.jpg'">
+</drop-item>
+<drop-item 
+[imgsrc]="'../../assets/images/lake.jpg'">
+</drop-item>
+<drop-item 
+[imgsrc]="'../../assets/images/jump.jpg'">
+</drop-item>
+<drop-item 
+[imgsrc]="'../../assets/images/flower.jpg'">
+</drop-item>
+<drop-item 
+[imgsrc]="'../../assets/images/sunset.jpg'">
+</drop-item>
+
+

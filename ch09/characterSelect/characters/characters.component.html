@@ -1,0 +1,11 @@
+<div>
+  <div *ngIf="character">
+    <h2>Character Details</h2>
+    <div class="cInfo">
+      <b>Name: </b>{{character.name}}<br>
+      <b>Race: </b>{{character.race}}<br>
+      <b>Weapon: </b>{{character.weapon}}<br>
+      <button (click)="deleteChar()">Delete</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+div { 
+    position: inline-block; 
+    width: fit-content; 
+    border: 3px solid black;
+}
+p { 
+    font: bold 25px 'Times New Roman'; 
+    padding: 5px; 
+    text-align: center; 
+}
