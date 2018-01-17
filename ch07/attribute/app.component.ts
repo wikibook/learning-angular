@@ -2,38 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `
-    <form #character="ngForm" novalidate>
-        <span>name:</span><input name="name" [(ngModel)]="charName"><br>
-        <span>color:</span>
-        <input type="checkbox" (click)="enabler()">
-        <select #optionColor [(ngModel)]="color" name="color" [disabled]="isDisabled">
-            <option *ngFor="let color of colors" [value]="color">{{color}}</option>
-        </select><hr>
-        <span>Change Class</span><br>
-        <select #classOption multiple name="styles" (change)="addClass($event)">
-            <option *ngFor="let class of classes" [value]="class" >{{class}}</option>
-        </select><br>
-        <span>press and hold control/command<br>to select multiple options</span>
-    </form>
-    <hr>
-    <span>Name: {{charName}}</span><br>
-    <span [ngClass]="selectedClass" 
-          [ngStyle]="{'color': optionColor.value}">
-            color: {{optionColor.value}}
-    </span><br>
-  `,
-  styles: [`
-    .bold {
-      font-weight: bold;
-    }
-    .italic {
-      font-style: italic;
-    }
-    .highlight {
-      background-color: lightblue;
-    }
-  `]
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
  })
 export class AppComponent {
     colors: string[] = ["red", "blue", "green", "yellow"];
